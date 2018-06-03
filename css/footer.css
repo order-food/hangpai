@@ -51,6 +51,10 @@ footer .addInfo .addInfo_center>ul>li{
 	display: flex;
 	align-items: center;
 }
+footer .addInfo .addInfo_center>ul>li>img{
+	width:57px;
+	height:57px;
+}
 footer .addInfo .addInfo_center>ul>li > a{
 	display: block;
 	width: 58px;
