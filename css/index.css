@@ -15,8 +15,11 @@ a{
 body{
 	background: #fff;
 }
+.head{
+	width: 100%;
+}
 .top{
-	width: 1920px;
+	width: 100%;
 	height: 645px;
 	background: #346640;
 	margin: 0 auto;
@@ -69,24 +72,32 @@ body{
 	margin-top: 40px;
 	font-weight: 100;
 }
+.middle{
+	width: 1200px;
+	margin:0 auto;
+
+}
 .banner{
-	width: 1920px;
+	position: relative;
+	width: 100%;
 	height: 484px;
 }
 .ban_left{
+	position: absolute;
+	left: 0;
+	top: 0;
 	width: 261px;
 	height: 193px;
-	margin-left: 332px;
-	float: left;
 }
 .ban_center{
 	width: 734px;
 	height: 484px;
-	float: left;
+	margin:0 auto;
 	overflow: hidden;
 	z-index: 1000;
 }
 .ban_center1{
+	
 	width: 242px;
 	height: 37px;
 	background: #34e188;
@@ -158,32 +169,31 @@ body{
 	color: #6c6c6c;
 }
 .ban_right{
+	position: absolute;
+	right: 0;
+	top: 0;
 	width: 261px;
 	height: 193px;
-	margin-right: 332px;
-	float: right;
 }
 .people{
-	width: 1920px;
+	width: 100%;
 	height: 764px;
 	position: relative;
 }
 .peo_left{
 	width: 641px;
-	/* height: 882px; */
 	height: 764px;
 	background: lightgreen;
 	position: absolute;
-	/* top: -118px; */
-	left: 315px;
-	z-index: 100;
-	float: left;
+	top: 0;
+	left: 0;
 }
 .peo_right{
-	width: 692px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 554px;
 	height: 764px;
-	float: right;
-	margin-right: 270px;
 }
 .peo_text1{
 	width: 309px;
@@ -214,12 +224,12 @@ body{
 	font-weight: 500;
 }
 .peo_right p{
-	width: 628px;
-	height: 88px;
-	margin-left: 63px;
+	width: 554px;
+	padding-left: 63px;
 	margin-top: 46px;
 	line-height: 22px;
 	color: #737373;
+	box-sizing:border-box;
 }
 .peo_right h3{
 	width: 162px;
@@ -246,20 +256,20 @@ body{
 	color: #fff;
 }
 .picture{
-	width: 1920px;
+	width: 100%;
 	height: 344px;
+	margin:0 auto;
 	margin-top: 61px;
 	border-top: 2px solid #27ad68;
 	border-bottom: 2px solid #27ad68;
 }
-..picture img{
+.picture img{
 	display: block;
-	width: 1920px;
+	width: 100%;
 	height: 344px;
-	margin-top: 2px;
 }
 .company{
-	width: 1920px;
+	width: 100%;
 	height: 1302px;
 	overflow: hidden;
 }
@@ -273,7 +283,7 @@ body{
 	color: #898989;
 }
 .picture_b{
-	width: 1920px;
+	width: 100%;
 	height: 1008px;
 	margin-top: 80px;
 	position: relative;
@@ -283,7 +293,7 @@ body{
 	height: 240px;
 	position: absolute;
 	top: 0;
-	left: 378px;
+	left: 108px;
 	z-index: 2;
 }
 .picture_h{
@@ -335,7 +345,7 @@ body{
 	height: 358px;
 	background: yellow;
 	position: absolute;
-	left: 119px;
+	left: -150px;
 	bottom: 236px;
 	z-index: 3;
 }
@@ -344,7 +354,7 @@ body{
 	height: 829px;
 	background: rgba(6, 115, 250, 0.8);
 	position: absolute;
-	left: 766px;
+	right:165px;
 	top: 0;
 	z-index: 4;
 }
@@ -427,10 +437,11 @@ body{
 	margin-left: 4px;
 }
 .work{
-	width: 1920px;
+	position: relative;
+	width: 100%;
 	height: 1208px;
-	overflow: hidden;
 }
+
 .work p{
 	width: 156px;
 	height: 26px;
@@ -441,13 +452,13 @@ body{
 	color: #898989;
 }
 .work_bottom{
-	width: 1920px;
+	width: 100%;
 	height: 916px;
 	margin-top: 80px;
 	position: relative;
 }
 .work_1{
-	width: 1920px;
+	width: 100%;
 	height: 638px;
 	background: green;
 	position: absolute;
@@ -456,7 +467,7 @@ body{
 	z-index: 1;
 }
 .work_2{
-	width: 1920px;
+	width: 100%;
 	height: 55px;
 	background: #dadada;
 	position: absolute;
@@ -469,9 +480,9 @@ body{
 	height: 300px;
 	background: #f8f8f8;
 	position: absolute;
-	left: 954px;
+	right:305px;
 	bottom: 17px;
-	z-index: 2;
+	z-index: 20;
 }
 .work_4{
 	width: 621px;
@@ -479,17 +490,17 @@ body{
 	background: yellow;
 	position: absolute;
 	bottom: 0;
-	right: 159px;
+	right: -140px;
 	z-index: 3;
 }
 .work_5{
 	width: 359px;
 	height: 300px;
-	background: red;
+	background: blue;
 	position: absolute;
-	left: 0;
+	left: -359px;
 	top: 300px;
-	z-index: 3
+	z-index: 3;
 }
 .work_5_2{
 	width: 300px;
@@ -497,7 +508,7 @@ body{
 	background: pink;
 	position: absolute;
 	top: 300px;
-	left: 359px;
+	left: 0;
 	z-index: 4;
 }
 .work_5_3{
@@ -506,7 +517,7 @@ body{
 	background: pink;
 	position: absolute;
 	top: 300px;
-	left: 659px;
+	left: 300px;
 	z-index: 4;
 }
 .work_5_4{
@@ -515,7 +526,7 @@ body{
 	background: pink;
 	position: absolute;
 	top: 300px;
-	left: 959px;
+	right: 0;
 	z-index: 4;
 }
 .work_6{
@@ -524,7 +535,7 @@ body{
 	background: red;
 	position: absolute;
 	bottom: 17px;
-	left: 659px;
+	right: 604px;
 	z-index: 4;
 }
 .work_7{
@@ -533,7 +544,7 @@ body{
 	background: red;
 	position: absolute;
 	top: 0;
-	left: 359px;
+	left: 0;
 	z-index: 4;
 }
 .work_7_1{
@@ -542,7 +553,7 @@ body{
 	background: red;
 	position: absolute;
 	top: 0;
-	left: 659px;
+	left: 300px;
 	z-index: 4;
 }
 .work_7_2{
@@ -551,7 +562,7 @@ body{
 	background: red;
 	position: absolute;
 	top: 0;
-	left: 959px;
+	left: 600px;
 	z-index: 4;
 }
 .work_7_3{
@@ -560,7 +571,7 @@ body{
 	background: red;
 	position: absolute;
 	top: 0;
-	left: 1259px;
+	left: 900px;
 	z-index: 4;
 }
 .work_bottom h1{
@@ -611,7 +622,7 @@ body{
 	font-size: 30px;
 }
 .team{
-	width: 1920px;
+	width: 100%;
 	height: 638px;
 	overflow: hidden;
 }
@@ -625,7 +636,7 @@ body{
 	color: #898989;
 }
 .team_box{
-	width: 1920px;
+	width: 100%;
 	height: 214px;
 	margin-top: 210px;
 	position: relative;
@@ -641,7 +652,7 @@ body{
 	color: #fff;
 	position: absolute;
 	top: 0;
-	left: 494px;
+	left: 135px;
 }
 .team_icon1{
 	width: 26px;
@@ -654,7 +665,7 @@ body{
 	border-radius: 50%;
 	position: absolute;
 	top: 0;
-	right: 494px;
+	right: 128px;
 }
 .team_tu1{
 	width: 188px;
@@ -663,7 +674,7 @@ body{
 	overflow: hidden;
 	border-radius: 50%;
 	position: absolute;
-	left: 594px;
+	left: 234px;
 	top: -83px;
 }
 .team_tu2{
@@ -672,7 +683,7 @@ body{
 	background: pink;
 	overflow: hidden;
 	position: absolute;
-	left: 857px;
+	left: 497px;
 	top: -128px;
 }
 .team_tu3{
@@ -682,7 +693,7 @@ body{
 	overflow: hidden;
 	border-radius: 50%;
 	position: absolute;
-	right: 594px;
+	right: 220px;
 	top: -83px;
 }
 .team_tu1_1{
@@ -695,7 +706,7 @@ body{
 	margin-left: 4px;
 }
 .team_box h1{
-	width: auto;
+	width: 206px;
 	height: 26px;
 	font-size: 18px;
 	color: #434343;
@@ -703,10 +714,10 @@ body{
 	text-align: center;
 	position: absolute;
 	bottom: 59px;
-	left: 925px;
+	left: 497px;
 }
 .team_box h2{
-	width: auto;
+	width: 206px;
 	height: 20px;
 	font-size: 12px;
 	color: #696969;
@@ -714,10 +725,10 @@ body{
 	text-align: center;
 	position: absolute;
 	bottom: 40px;
-	left: 935px;
+	left: 497px;
 }
 .mation{
-	width: 1920px;
+	width: 100%;
 	height: 926px;
 	background: #fff;
 	overflow: hidden;
@@ -732,7 +743,7 @@ body{
 	color: #898989;
 }
 .mation_box{
-	width: 1920px;
+	width: 100%;
 	height: 632px;
 	margin-top: 80px;
 }
@@ -740,7 +751,6 @@ body{
 	width: 520px;
 	height: 632px;
 	background: #fff;
-	margin-left: 360px;
 	overflow: hidden;
 	position: relative;
 	float: left;
@@ -827,10 +837,10 @@ body{
 	font-weight: 500;
 }
 .mation_right{
-	width: 688px;
+	width: 628px;
 	height: 632px;
 	background: pink;
-	float: left;
+	float: right;
 }
 .mation_right h1{
 	width: 186px;
@@ -863,18 +873,20 @@ body{
 	width: 625px;
 	height: 130px;
 	background: #fff;
-	margin-left: 56px;
+	padding-left: 56px;
 	margin-top: 42px;
 	border-top: 2px solid #e7e7e7;
 	border-bottom: 2px solid #e7e7e7;
+	box-sizing:border-box;
 }
 .mation_b1{
 	width: 625px;
 	height: 130px;
 	background: #fff;
-	margin-left: 56px;
+	padding-left: 56px;
 	border-bottom: 2px solid #e7e7e7;
 	overflow: hidden;
+	box-sizing:border-box;
 }
 .mation_bi{
 	width: 110px;
@@ -886,7 +898,7 @@ body{
 	margin-right: 18px;
 }
 .mation_text{
-	width: 495px;
+	width: 439px;
 	height: 111px;
 	float: left;
 	margin-top: 10px;
@@ -911,7 +923,7 @@ body{
 	margin-left: 0;
 }
 .mation_text p{
-	width: 448px;
+	width: 420px;
 	height: 44px;
 	margin-top: 10px;
 	line-height: 22px;

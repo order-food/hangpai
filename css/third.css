@@ -14,7 +14,7 @@ a{
 	text-decoration: none;
 }
 header{
-	width: 1920px;
+	width: 100%;
 /* 	position: relative; */
 }
 header .h-top{
@@ -132,12 +132,11 @@ header .h-bot .news{
 /*header end*/
 .overall{
 	width: 1200px;
-	height: 5587px;
+	margin:0 auto;
 	background: #fff;
 	box-shadow: 0 0 5px 3px #f4f4f4;
-	position: absolute;
-	top: 313px;
-	left: 360px; 
+	position: relative;
+	top: -44px; 
 }
 .top{
 	width: 100%;
@@ -729,6 +728,7 @@ header .h-bot .news{
 }
 .liuyan>textarea[name="id"]{
 	 resize:none;
+	 height: 355px;
 	 border-radius: 10px;
 	 font-size: 12px;
      color: #8b8b8b;
@@ -747,9 +747,9 @@ header .h-bot .news{
 }
 /* footer start */
 footer{
-	width: 1920px;
+	width: 100%;
 	height: 767px;
-	margin-top: 5650px;
+	margin-top: 110px;
 }
 footer .addInfo{
 	position: relative;
